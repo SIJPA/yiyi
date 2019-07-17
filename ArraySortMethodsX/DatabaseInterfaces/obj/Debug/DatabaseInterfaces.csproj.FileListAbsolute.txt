@@ -1,0 +1,10 @@
+D:\ArraySortMethodsX\DatabaseInterfaces\bin\Debug\DatabaseInterfaces.dll
+D:\ArraySortMethodsX\DatabaseInterfaces\bin\Debug\DatabaseInterfaces.pdb
+D:\ArraySortMethodsX\DatabaseInterfaces\obj\Debug\DatabaseInterfaces.csprojResolveAssemblyReference.cache
+D:\ArraySortMethodsX\DatabaseInterfaces\obj\Debug\DatabaseInterfaces.dll
+D:\ArraySortMethodsX\DatabaseInterfaces\obj\Debug\DatabaseInterfaces.pdb
+E:\ArraySortMethodsX\DatabaseInterfaces\bin\Debug\DatabaseInterfaces.dll
+E:\ArraySortMethodsX\DatabaseInterfaces\bin\Debug\DatabaseInterfaces.pdb
+E:\ArraySortMethodsX\DatabaseInterfaces\obj\Debug\DatabaseInterfaces.csprojResolveAssemblyReference.cache
+E:\ArraySortMethodsX\DatabaseInterfaces\obj\Debug\DatabaseInterfaces.dll
+E:\ArraySortMethodsX\DatabaseInterfaces\obj\Debug\DatabaseInterfaces.pdb

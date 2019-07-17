@@ -1,0 +1,5 @@
+D:\ArraySortMethodsX\SorterInterfaces\bin\Debug\ArraySortMethodsX.Sorters.SorterInterfaces.dll
+D:\ArraySortMethodsX\SorterInterfaces\bin\Debug\ArraySortMethodsX.Sorters.SorterInterfaces.pdb
+D:\ArraySortMethodsX\SorterInterfaces\obj\Debug\SorterInterfaces.csprojResolveAssemblyReference.cache
+D:\ArraySortMethodsX\SorterInterfaces\obj\Debug\ArraySortMethodsX.Sorters.SorterInterfaces.dll
+D:\ArraySortMethodsX\SorterInterfaces\obj\Debug\ArraySortMethodsX.Sorters.SorterInterfaces.pdb

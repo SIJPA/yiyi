@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E2B7AEF6-FFED-4A15-A832-15F512B079D0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Main</RootNamespace>
+    <AssemblyName>Main</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\ArrayEFProject\bin\Debug\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ArrayADOProject\ArrayADOProject.csproj">
+      <Project>{3c1a1359-682c-4402-bff0-0c378dccc875}</Project>
+      <Name>ArrayADOProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ArrayConsoleProject\ArrayConsoleProject.csproj">
+      <Project>{011d2f6f-1148-4085-94ae-ec6618d8adab}</Project>
+      <Name>ArrayConsoleProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ArrayEFProject\ArrayEFProject.csproj">
+      <Project>{788c573a-e8b8-4e8b-bcb3-b4c0a1b3b50a}</Project>
+      <Name>ArrayEFProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ArrayFileProject\ArrayFileProject.csproj">
+      <Project>{c720fac5-24c3-4e7d-9850-07500d8eb3a4}</Project>
+      <Name>ArrayFileProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ArrayRandomProject\ArrayRandomProject.csproj">
+      <Project>{87acc8a6-6b73-4908-a1ef-af1810502e93}</Project>
+      <Name>ArrayRandomProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BubbleSorterProject\BubbleSorterProject.csproj">
+      <Project>{ec912154-c62e-47af-8a06-759d4e92bc75}</Project>
+      <Name>BubbleSorterProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DatabaseInterfaces\DatabaseInterfaces.csproj">
+      <Project>{ef8876c0-4f81-4dfb-9ef3-bdfe309a814c}</Project>
+      <Name>DatabaseInterfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\LoggerProject\LoggerProject.csproj">
+      <Project>{a4d60d4c-cda4-453b-8332-d28309689dfc}</Project>
+      <Name>LoggerProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuickSorterProject\QuickSorterProject.csproj">
+      <Project>{d7dd32bd-8594-4ac6-9f48-68b212aefa9a}</Project>
+      <Name>QuickSorterProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SelectionSorterProject\SelectionSorterProject.csproj">
+      <Project>{dbf69c37-1b54-4eba-8192-16d9dc81f1c1}</Project>
+      <Name>SelectionSorterProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ShellSorterProject\ShellSorterProject.csproj">
+      <Project>{a7f3aa96-09f5-40f4-83e6-bde562e31cb9}</Project>
+      <Name>ShellSorterProject</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SorterInterfaces\SorterInterfaces.csproj">
+      <Project>{1043d589-0136-4f4f-87df-4da67b4ba456}</Project>
+      <Name>SorterInterfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

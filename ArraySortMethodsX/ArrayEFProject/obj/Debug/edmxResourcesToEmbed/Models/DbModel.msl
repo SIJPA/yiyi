@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ArraySortModelStoreContainer" CdmEntityContainer="Entities">
+    <EntitySetMapping Name="input_arrays">
+      <EntityTypeMapping TypeName="ArraySortModel.input_arrays">
+        <MappingFragment StoreEntitySet="input_arrays">
+          <ScalarProperty Name="array_id" ColumnName="array_id" />
+          <ScalarProperty Name="number_of_rows" ColumnName="number_of_rows" />
+          <ScalarProperty Name="number_of_columns" ColumnName="number_of_columns" />
+          <ScalarProperty Name="array_content" ColumnName="array_content" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sorted_arrays">
+      <EntityTypeMapping TypeName="ArraySortModel.sorted_arrays">
+        <MappingFragment StoreEntitySet="sorted_arrays">
+          <ScalarProperty Name="sorted_array_id" ColumnName="sorted_array_id" />
+          <ScalarProperty Name="array_id" ColumnName="array_id" />
+          <ScalarProperty Name="sorting_time" ColumnName="sorting_time" />
+          <ScalarProperty Name="sorter_name" ColumnName="sorter_name" />
+          <ScalarProperty Name="array_content" ColumnName="array_content" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

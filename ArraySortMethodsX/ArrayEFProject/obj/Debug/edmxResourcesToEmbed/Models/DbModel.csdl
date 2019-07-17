@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ArraySortModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="input_arrays">
+    <Key>
+      <PropertyRef Name="array_id" />
+    </Key>
+    <Property Name="array_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="number_of_rows" Type="Int32" Nullable="false" />
+    <Property Name="number_of_columns" Type="Int32" Nullable="false" />
+    <Property Name="array_content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="sorted_arrays" Relationship="Self.FK_dbo_sorted_arrays_dbo_input_arrays_array_id" FromRole="input_arrays" ToRole="sorted_arrays" />
+  </EntityType>
+  <EntityType Name="sorted_arrays">
+    <Key>
+      <PropertyRef Name="sorted_array_id" />
+    </Key>
+    <Property Name="sorted_array_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="array_id" Type="Int32" Nullable="false" />
+    <Property Name="sorting_time" Type="Single" Nullable="false" />
+    <Property Name="sorter_name" Type="String" MaxLength="50" FixedLength="false" Unicode="true" />
+    <Property Name="array_content" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+    <NavigationProperty Name="input_arrays" Relationship="Self.FK_dbo_sorted_arrays_dbo_input_arrays_array_id" FromRole="sorted_arrays" ToRole="input_arrays" />
+  </EntityType>
+  <Association Name="FK_dbo_sorted_arrays_dbo_input_arrays_array_id">
+    <End Role="input_arrays" Type="Self.input_arrays" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="sorted_arrays" Type="Self.sorted_arrays" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="input_arrays">
+        <PropertyRef Name="array_id" />
+      </Principal>
+      <Dependent Role="sorted_arrays">
+        <PropertyRef Name="array_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="input_arrays" EntityType="Self.input_arrays" />
+    <EntitySet Name="sorted_arrays" EntityType="Self.sorted_arrays" />
+    <AssociationSet Name="FK_dbo_sorted_arrays_dbo_input_arrays_array_id" Association="Self.FK_dbo_sorted_arrays_dbo_input_arrays_array_id">
+      <End Role="input_arrays" EntitySet="input_arrays" />
+      <End Role="sorted_arrays" EntitySet="sorted_arrays" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

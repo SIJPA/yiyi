@@ -1,0 +1,10 @@
+D:\ArraySortMethodsX\ArrayRandomProject\bin\Debug\ArrayRandomProject.dll
+D:\ArraySortMethodsX\ArrayRandomProject\bin\Debug\ArrayRandomProject.pdb
+D:\ArraySortMethodsX\ArrayRandomProject\obj\Debug\ArrayRandomProject.csprojResolveAssemblyReference.cache
+D:\ArraySortMethodsX\ArrayRandomProject\obj\Debug\ArrayRandomProject.dll
+D:\ArraySortMethodsX\ArrayRandomProject\obj\Debug\ArrayRandomProject.pdb
+E:\ArraySortMethodsX\ArrayRandomProject\bin\Debug\ArrayRandomProject.dll
+E:\ArraySortMethodsX\ArrayRandomProject\bin\Debug\ArrayRandomProject.pdb
+E:\ArraySortMethodsX\ArrayRandomProject\obj\Debug\ArrayRandomProject.csprojResolveAssemblyReference.cache
+E:\ArraySortMethodsX\ArrayRandomProject\obj\Debug\ArrayRandomProject.dll
+E:\ArraySortMethodsX\ArrayRandomProject\obj\Debug\ArrayRandomProject.pdb

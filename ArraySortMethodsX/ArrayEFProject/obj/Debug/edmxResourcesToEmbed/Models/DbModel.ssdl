@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ArraySortModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="input_arrays">
+    <Key>
+      <PropertyRef Name="array_id" />
+    </Key>
+    <Property Name="array_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="number_of_rows" Type="int" Nullable="false" />
+    <Property Name="number_of_columns" Type="int" Nullable="false" />
+    <Property Name="array_content" Type="nvarchar(max)" />
+  </EntityType>
+  <EntityType Name="sorted_arrays">
+    <Key>
+      <PropertyRef Name="sorted_array_id" />
+    </Key>
+    <Property Name="sorted_array_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="array_id" Type="int" Nullable="false" />
+    <Property Name="sorting_time" Type="real" Nullable="false" />
+    <Property Name="sorter_name" Type="nvarchar" MaxLength="50" />
+    <Property Name="array_content" Type="nvarchar(max)" />
+  </EntityType>
+  <Association Name="FK_dbo_sorted_arrays_dbo_input_arrays_array_id">
+    <End Role="input_arrays" Type="Self.input_arrays" Multiplicity="1">
+      <OnDelete Action="Cascade" />
+    </End>
+    <End Role="sorted_arrays" Type="Self.sorted_arrays" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="input_arrays">
+        <PropertyRef Name="array_id" />
+      </Principal>
+      <Dependent Role="sorted_arrays">
+        <PropertyRef Name="array_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="ArraySortModelStoreContainer">
+    <EntitySet Name="input_arrays" EntityType="Self.input_arrays" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sorted_arrays" EntityType="Self.sorted_arrays" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_dbo_sorted_arrays_dbo_input_arrays_array_id" Association="Self.FK_dbo_sorted_arrays_dbo_input_arrays_array_id">
+      <End Role="input_arrays" EntitySet="input_arrays" />
+      <End Role="sorted_arrays" EntitySet="sorted_arrays" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

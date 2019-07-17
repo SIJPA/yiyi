@@ -1,0 +1,7 @@
+D:\ArraySortMethodsX\QuickSorterProject\bin\Debug\QuickSorterProject.dll
+D:\ArraySortMethodsX\QuickSorterProject\bin\Debug\QuickSorterProject.pdb
+D:\ArraySortMethodsX\QuickSorterProject\bin\Debug\ArraySortMethodsX.Sorters.SorterInterfaces.dll
+D:\ArraySortMethodsX\QuickSorterProject\bin\Debug\ArraySortMethodsX.Sorters.SorterInterfaces.pdb
+D:\ArraySortMethodsX\QuickSorterProject\obj\Debug\QuickSorterProject.csprojResolveAssemblyReference.cache
+D:\ArraySortMethodsX\QuickSorterProject\obj\Debug\QuickSorterProject.dll
+D:\ArraySortMethodsX\QuickSorterProject\obj\Debug\QuickSorterProject.pdb

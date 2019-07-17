@@ -1,0 +1,7 @@
+D:\ArraySortMethodsX\ShellSorterProject\bin\Debug\ShellSorterProject.dll
+D:\ArraySortMethodsX\ShellSorterProject\bin\Debug\ShellSorterProject.pdb
+D:\ArraySortMethodsX\ShellSorterProject\bin\Debug\ArraySortMethodsX.Sorters.SorterInterfaces.dll
+D:\ArraySortMethodsX\ShellSorterProject\bin\Debug\ArraySortMethodsX.Sorters.SorterInterfaces.pdb
+D:\ArraySortMethodsX\ShellSorterProject\obj\Debug\ShellSorterProject.csprojResolveAssemblyReference.cache
+D:\ArraySortMethodsX\ShellSorterProject\obj\Debug\ShellSorterProject.dll
+D:\ArraySortMethodsX\ShellSorterProject\obj\Debug\ShellSorterProject.pdb

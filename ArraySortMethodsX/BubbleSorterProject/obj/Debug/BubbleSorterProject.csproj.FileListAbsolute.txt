@@ -1,0 +1,7 @@
+D:\ArraySortMethodsX\BubbleSorterProject\bin\Debug\BubbleSorterProject.dll
+D:\ArraySortMethodsX\BubbleSorterProject\bin\Debug\BubbleSorterProject.pdb
+D:\ArraySortMethodsX\BubbleSorterProject\bin\Debug\ArraySortMethodsX.Sorters.SorterInterfaces.dll
+D:\ArraySortMethodsX\BubbleSorterProject\bin\Debug\ArraySortMethodsX.Sorters.SorterInterfaces.pdb
+D:\ArraySortMethodsX\BubbleSorterProject\obj\Debug\BubbleSorterProject.csprojResolveAssemblyReference.cache
+D:\ArraySortMethodsX\BubbleSorterProject\obj\Debug\BubbleSorterProject.dll
+D:\ArraySortMethodsX\BubbleSorterProject\obj\Debug\BubbleSorterProject.pdb

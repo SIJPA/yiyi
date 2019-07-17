@@ -1,0 +1,4 @@
+D:\ArraySortMethodsX\LoggerProject\bin\Debug\LoggerProject.dll
+D:\ArraySortMethodsX\LoggerProject\bin\Debug\LoggerProject.pdb
+D:\ArraySortMethodsX\LoggerProject\obj\Debug\LoggerProject.dll
+D:\ArraySortMethodsX\LoggerProject\obj\Debug\LoggerProject.pdb

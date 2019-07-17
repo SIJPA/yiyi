@@ -1,0 +1,14 @@
+D:\ArraySortMethodsX\ArrayADOProject\bin\Debug\ArrayADOProject.dll
+D:\ArraySortMethodsX\ArrayADOProject\bin\Debug\ArrayADOProject.pdb
+D:\ArraySortMethodsX\ArrayADOProject\obj\Debug\ArrayADOProject.csprojResolveAssemblyReference.cache
+D:\ArraySortMethodsX\ArrayADOProject\obj\Debug\ArrayADOProject.dll
+D:\ArraySortMethodsX\ArrayADOProject\obj\Debug\ArrayADOProject.pdb
+D:\ArraySortMethodsX\ArrayADOProject\bin\Debug\DatabaseInterfaces.dll
+D:\ArraySortMethodsX\ArrayADOProject\bin\Debug\DatabaseInterfaces.pdb
+E:\ArraySortMethodsX\ArrayADOProject\bin\Debug\ArrayADOProject.dll
+E:\ArraySortMethodsX\ArrayADOProject\bin\Debug\ArrayADOProject.pdb
+E:\ArraySortMethodsX\ArrayADOProject\bin\Debug\DatabaseInterfaces.dll
+E:\ArraySortMethodsX\ArrayADOProject\bin\Debug\DatabaseInterfaces.pdb
+E:\ArraySortMethodsX\ArrayADOProject\obj\Debug\ArrayADOProject.csprojResolveAssemblyReference.cache
+E:\ArraySortMethodsX\ArrayADOProject\obj\Debug\ArrayADOProject.dll
+E:\ArraySortMethodsX\ArrayADOProject\obj\Debug\ArrayADOProject.pdb

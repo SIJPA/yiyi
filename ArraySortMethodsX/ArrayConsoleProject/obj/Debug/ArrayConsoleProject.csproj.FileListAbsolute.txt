@@ -1,0 +1,5 @@
+D:\ArraySortMethodsX\ArrayConsoleProject\bin\Debug\ArrayConsoleProject.dll
+D:\ArraySortMethodsX\ArrayConsoleProject\bin\Debug\ArrayConsoleProject.pdb
+D:\ArraySortMethodsX\ArrayConsoleProject\obj\Debug\ArrayConsoleProject.csprojResolveAssemblyReference.cache
+D:\ArraySortMethodsX\ArrayConsoleProject\obj\Debug\ArrayConsoleProject.dll
+D:\ArraySortMethodsX\ArrayConsoleProject\obj\Debug\ArrayConsoleProject.pdb
